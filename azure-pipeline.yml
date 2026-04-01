@@ -25,3 +25,9 @@ stages:
     
     - script: npm run build
       displayName: 'Build project'    
+
+    - task: PublishTestResults@2
+      inputs:
+        testResultsFormat: 'JUnit'
+        testResultsFiles: '**/TEST-*.xml'
+    
