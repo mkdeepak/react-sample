@@ -38,7 +38,7 @@ stages:
     - script: npm install
       displayName: 'Install dependencies'
     
-    - script: npm test -- --ci --reporter=junit --reporter-options mochaFile=TEST-results.xml
+    - script: npm test
       displayName: 'Run unit tests with JUnit output'
 
     - script: npm run eslint
