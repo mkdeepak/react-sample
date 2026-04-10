@@ -21,6 +21,8 @@ For active development you should run it with the following commands:
 # Run it with watcher, so the process stays alive and it rerenders the page every time you apply a change to the code
 npm run dev
 
+
+
 # Run it once and generate the code in the dist folder
 npm run start
 ```
